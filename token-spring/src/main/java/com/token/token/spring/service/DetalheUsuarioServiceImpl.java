@@ -11,11 +11,11 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 
 @Component
-public class DetalheUsuariosServicesImpl implements UserDetailsService {
+public class DetalheUsuarioServiceImpl implements UserDetailsService {
 
     private final UsuarioRepository repository;
 
-    public DetalheUsuariosServicesImpl(UsuarioRepository repository){
+    public DetalheUsuarioServiceImpl(UsuarioRepository repository){
         this.repository = repository;
     }
 
